@@ -17,11 +17,13 @@ const BRAND_ICON = (
 
 const NAV_LINKS = [
   { href: "/",        labelKey: "dashboard" as const },
+  { href: "/analyze", labelKey: "analyze"   as const },
   { href: "/agents",  labelKey: "agentHub"  as const },
 ];
 
 const NAV_LABELS: Record<string, { en: string; ja: string }> = {
   dashboard: { en: "Dashboard", ja: "ダッシュボード" },
+  analyze:   { en: "Live Analyze", ja: "ライブ分析" },
   agentHub:  { en: "Agent Hub", ja: "エージェントハブ" },
 };
 
